@@ -1,0 +1,33 @@
+:root {
+  --brand-deep: #2f2d2a;
+  --brand-mid: #6e5834;
+  --spot: rgba(255, 205, 102, 0.5);
+  --ink: #2c241a;
+  --ink-soft: #5b5044;
+  --font-display: 'Avenir Next Condensed', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  --font-accent: 'Palatino Linotype', 'Book Antiqua', serif;
+  --font-body: 'Segoe UI Variable', 'Candara', 'Verdana', sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: radial-gradient(circle at 15% 10%, #f7ecd2 0%, transparent 38%),
+    radial-gradient(circle at 88% 85%, #d7c9ab 0%, transparent 30%), #efe9db;
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+#root {
+  min-height: 100vh;
+}
